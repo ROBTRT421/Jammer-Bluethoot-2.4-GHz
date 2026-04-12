@@ -11,6 +11,13 @@ https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer
 
 https://github.com/smoochiee/Bluetooth-jammer-esp32/tree/main
 
-# Tutorial
-1. Obtenga las piezas, instale [Arduino IDE] (https://www.arduino.cc/en/Main/Software), instale los controladores para Arduino (igual funciona si tiene un clon de Arduino Y está utilizando Windows)
-2. Configure la placa ArduinoUNO como un programador ArduinoISP-AVR con la siguiente ruta "Archivo > Ejemplos > Arduino ISP" Seleccionas y cargas el programa en tu placa ArduinoUNO
+# Partes
+Part Name            |      Amazon link       | Note
+:------------------- | ---------------------- | :------------------------------------------------
+ESP32 ESP-WROOM-32   | https://a.co/d/06vSPVuQ | Procura que sea este modelo, si cuentas con un modelo similar o distinto, documentate y ajusta las conexiones 
+NRF24                | https://a.co/d/09LNizxz | Existen muchos tipos y modelos, normalmente son las mismas terminales, documentate y ajusta las conexiones
+Placa Felonica 3cm x 5cm | https://a.co/d/0iKTH4Kn | procura cortarla a la medida para que todo embone perfecto, esto ya es a gustos y preferencias 
+Tira Header Macho    | https://a.co/d/07ljQCwV | 
+Capacitor 10uf 50 V  | https://a.co/d/0bNZ5SrL | 
+Capacitor ceramico 100nf | https://a.co/d/0b53Ifid | 
+Cables Puente            | https://a.co/d/06hiqdK2 |
