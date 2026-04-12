@@ -1,4 +1,4 @@
-#:warning::warning::warning: ATENCIO! :warning::warning::warning:
+# :warning::warning::warning: ATENCION! :warning::warning::warning:
 
 # Video: https://youtu.be/uYrIfBi0Qlg
 
