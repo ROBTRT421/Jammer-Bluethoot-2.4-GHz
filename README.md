@@ -63,12 +63,12 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 # :warning: NOTAS IMPORTANTES :warning:
 El código y el proyecto esta echo para 2 módulos de NRF24 y un "switch" de encendido, sin embargo aquí solo utilizamos 1 módulo NRF24 sin "switch" de encendido, si quisieras utilizar 2 módulos NFR24 controlados por 1 solo ESP32 la conexiones se muestran en la siguiente tabla 
 
-Módulo 1             |      ESP32             |Módulo 2             |      ESP32             |
-:------------------- | ---------------------- | ------------------- | ---------------------- |
-VCC                  | 3.3V                   | VCC                 | 3.3V                   |
-GND                  | GND                    | GND                 | GND                    |
-SCK                  | PIN 14                 | SCK                 | PIN 18                 |
-MISO                 | PIN 12                 | MISO                | PIN 19                 |
-MOSI                 | PIN 13                 | MOSI                | PIN 23                 |
-CS/CSN               | PIN 15                 | CS/CSN              | PIN 21                 |
-CE                   | PIN 16                 | CE                  | PIN 22                 |
+Módulo 1             |      ESP32                  |Módulo 2             |      ESP32             |
+:------------------- | --------------------------- | ------------------- | ---------------------- |
+VCC                  | 3.3V                        | VCC                 | 3.3V                   |
+GND                  | GND                         | GND                 | GND                    |
+SCK                  | PIN 14                      | SCK                 | PIN 18                 |
+MISO                 | PIN 12                      | MISO                | PIN 19                 |
+MOSI                 | PIN 13                      | MOSI                | PIN 23                 |
+CS/CSN               | PIN 15                      | CS/CSN              | PIN 21                 |
+CE                   | PIN 16                      | CE                  | PIN 22                 |
