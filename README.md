@@ -51,5 +51,5 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 
 
 3. Una vez tengamos la base de nuestro dispositivo, continuamos con el flasheo de nuestro ESP32 por medio de la plataforma [IDE de Arduino](https://www.arduino.cc/en/Main/Software), ingresa a la pagina oficial y descarga la ultima version del software, posteriormente asegurate de descargar las librerias necesarias [RF24](https://github.com/nRF24/RF24) y [ezButton](https://arduinogetstarted.com/tutorials/arduino-button-library), sin olvidarnos de hacer los ajustes necesarios para que el IDE de Arduino, reconozca nuestra placa ESP32
-
+   ![Prepare]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/IDE%20Preparado.png "Prepare.")
 
