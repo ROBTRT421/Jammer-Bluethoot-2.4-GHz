@@ -27,7 +27,7 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 2. Realiza las debidas conexiones basandote en el siguiente diagrama:
 ![wiring diagram]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Diagrama.png "wiring diagram")
 
-  2.1. Paso 1.
-  ![Step1]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%201..jpg "Paso 1.")
+    2.1. Paso 1.
+    ![Step1]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%201..jpg "Paso 1.")
   
 
