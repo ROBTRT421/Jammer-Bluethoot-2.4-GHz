@@ -5,7 +5,7 @@ el desconocimiento de la ley, no te exime de tus responsabilidades, se recomiend
 # Video: https://youtu.be/uYrIfBi0Qlg
 
 # Prologo
-El siguiente tutorial no es muy diferente a cualquiera que podremos encontrar en la plataforma, quizás la única diferencia es que esta echo en español y no omite ningún tipo de información para la realización del proyecto, no tiene ningún fin de lucro, al contrario tiene la finalidad de nutrir el conocimiento y la curiosidad de las personas y cualquiera que llegue hasta aquí. Disfrútalo y Diviértete, todos los derechos reservados a quienes inspiraron y de quienes es el código fuente, a continuación dejamos los links para más información.
+El siguiente tutorial no es muy diferente a cualquiera que podremos encontrar en la plataforma, quizás la única diferencia es que esta echo en español y no omite ningún tipo de información para la realización del proyecto, no tiene ningún fin de lucro, al contrario, tiene la finalidad de nutrir el conocimiento y la curiosidad de las personas y cualquiera que llegue hasta aquí. Disfrútalo y Diviértete, todos los derechos reservados a quienes inspiraron y de quien es el código fuente, a continuación, dejamos los links para más información. 
 
 https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer
 
@@ -14,18 +14,18 @@ https://github.com/smoochiee/Bluetooth-jammer-esp32/tree/main
 # Partes
 Part Name            |      Amazon link       | Note
 :------------------- | ---------------------- | :------------------------------------------------
-ESP32 ESP-WROOM-32   | https://a.co/d/06vSPVuQ | Procura que sea este modelo, si cuentas con un modelo similar o distinto, documentate y ajusta las conexiones 
-NRF24                | https://a.co/d/09LNizxz | Existen muchos tipos y modelos, normalmente son las mismas terminales, documentate y ajusta las conexiones
+ESP32 ESP-WROOM-32   | https://a.co/d/06vSPVuQ | Procura que sea este modelo, si cuentas con un modelo similar o distinto, documéntate y ajusta las conexiones 
+NRF24                | https://a.co/d/09LNizxz | Existen muchos tipos y modelos, normalmente son las mismas terminales, documéntate y ajusta las conexiones
 Placa Felonica 3cm x 5cm | https://a.co/d/0iKTH4Kn | procura cortarla a la medida para que todo embone perfecto, esto ya es a gustos y preferencias 
 Tira Header Macho    | https://a.co/d/07ljQCwV | 
 Capacitor 10uf 50 V  | https://a.co/d/0bNZ5SrL | 
-Capacitor ceramico 100nf | https://a.co/d/0b53Ifid | 
+Capacitor cerámico 100nf | https://a.co/d/0b53Ifid | 
 Cables Puente            | https://a.co/d/06hiqdK2 |
 
 # Tutorial
 1. Adquiere las piezas usando la tabla anterior como referencia.
 
-2. Realiza las debidas conexiones basandote en el siguiente diagrama:
+2. Realiza las debidas conexiones basándote en el siguiente diagrama:
 ![wiring diagram]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Diagrama.png "wiring diagram")
 
     2.1. Paso 1.
@@ -50,7 +50,7 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
     ![Step7]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%207..jpg "Paso 7.")
 
 
-3. Una vez tengamos la base de nuestro dispositivo, continuamos con el flasheo de nuestro ESP32 por medio de la plataforma [IDE de Arduino](https://www.arduino.cc/en/Main/Software), ingresa a la pagina oficial y descarga la ultima version del software, posteriormente asegurate de descargar las librerias necesarias [RF24](https://github.com/nRF24/RF24) y [ezButton](https://arduinogetstarted.com/tutorials/arduino-button-library), sin olvidarnos de hacer los ajustes necesarios para que el IDE de Arduino, reconozca nuestra placa ESP32, carguemos [El Codigo](https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/FOR%20VSPI%20PIN.ino) en nuestro IDE y ahora si, estamos listos para el FLASHEO! :warning:
+3. Una vez tengamos la base de nuestro dispositivo, continuamos con el flasheo de nuestro ESP32 por medio de la plataforma [IDE de Arduino](https://www.arduino.cc/en/Main/Software), ingresa a la página oficial y descarga la última versión del software, posteriormente asegúrate de descargar las librerías necesarias [RF24](https://github.com/nRF24/RF24) y [ezButton](https://arduinogetstarted.com/tutorials/arduino-button-library), sin olvidarnos de hacer los ajustes necesarios para que el IDE de Arduino, reconozca nuestra placa ESP32, carguemos [El Codigo](https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/FOR%20VSPI%20PIN.ino) en nuestro IDE y ahora si, estamos listos para el FLASHEO! :warning:
 
    ![Prepare]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/IDE%20Preparado.png "Prepare.")
 
@@ -59,3 +59,17 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 ![Flasheo]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Flasheo%20ESP32%20(1).gif "Flasheo")
 
 # TODO LISTO! D I S F R U T A L O :smile:
+
+# :warning: NOTAS IMPORTANTES :warning:
+El código y el proyecto esta echo para 2 módulos de NRF24 y un "switch" de encendido, sin embargo aquí solo utilizamos 1 módulo NRF24 sin "switch" de encendido, si quisieras utilizar 2 módulos NFR24 controlados por 1 solo ESP32 la conexiones se muestran en la siguiente tabla 
+
+HSPI                 |      ESP32             |
+:------------------- | ---------------------- | 
+        VCC          |      3.3V              |
+GND                  | GND                    |
+SCK                  | https://a.co/d/0iKTH4Kn |
+Tira Header Macho    | https://a.co/d/07ljQCwV | 
+Capacitor 10uf 50 V  | https://a.co/d/0bNZ5SrL | 
+Capacitor cerámico 100nf | https://a.co/d/0b53Ifid | 
+Cables Puente            | https://a.co/d/06hiqdK2 |
+
