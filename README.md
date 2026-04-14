@@ -29,5 +29,25 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 
     2.1. Paso 1.
     ![Step1]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%201..jpg "Paso 1.")
-  
+
+    2.2. Paso 2.
+    ![Step2]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%202..jpg "Paso 2.")
+
+    2.3. Paso 3.
+    ![Step3]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/paso%203..jpg "Paso 3.")
+
+    2.4. Paso 4.
+    ![Step4]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/paso%204..jpg "Paso 4.")
+
+    2.5. Paso 5.
+    ![Step5]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%205..jpg "Paso 5.")
+
+    2.6. Paso 6.
+    ![Step6]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%206..jpg "Paso 6.")
+
+    2.7. Paso 7.
+    ![Step7]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%207..jpg "Paso 7.")
+
+3. 
+
 
