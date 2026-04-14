@@ -75,4 +75,4 @@ CE                   | PIN 16                      | CE                  | PIN 2
 
 Puedes usar el siguiente diagrama como guía: 
 
-![Diagrama Doble]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Diagrama%20Doble.png "Diagrama Doble.")
+![Diagrama Doble]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Diagrama%20Doble.png "Diagrama Doble.") 
