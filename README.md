@@ -54,3 +54,7 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 
    ![Prepare]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/IDE%20Preparado.png "Prepare.")
 
+
+# FLASHEO
+![Flasheo]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Flasheo%20ESP32.gif "Flasheo")
+
