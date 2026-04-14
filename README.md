@@ -65,11 +65,11 @@ El código y el proyecto esta echo para 2 módulos de NRF24 y un "switch" de enc
 
 HSPI                 |      ESP32             |
 :------------------- | ---------------------- | 
-        VCC          |      3.3V              |
+VCC                  | 3.3V                   |
 GND                  | GND                    |
-SCK                  | https://a.co/d/0iKTH4Kn |
-Tira Header Macho    | https://a.co/d/07ljQCwV | 
-Capacitor 10uf 50 V  | https://a.co/d/0bNZ5SrL | 
-Capacitor cerámico 100nf | https://a.co/d/0b53Ifid | 
-Cables Puente            | https://a.co/d/06hiqdK2 |
+SCK                  | PIN 14                 |
+MISO                 | PIN 12                 | 
+MOSI                 | PIN 13                 | 
+CS/CSN               | PIN 15                 | 
+CE                   | PIN 16                 |
 
