@@ -24,6 +24,7 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
 
 # Tutorial
 1. Adquiere las piezas usando la tabla anterior como referencia.
+
 2. Realiza las debidas conexiones basandote en el siguiente diagrama:
 ![wiring diagram]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Diagrama.png "wiring diagram")
 
@@ -48,6 +49,7 @@ Cables Puente            | https://a.co/d/06hiqdK2 |
     2.7. Paso 7.
     ![Step7]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Paso%207..jpg "Paso 7.")
 
-3. 
+
+3. Una vez tengamos la base de nuestro dispositivo, continuamos con el flasheo de nuestro ESP32 por medio de la plataforma [IDE de Arduino](https://www.arduino.cc/en/Main/Software), ingresa a la pagina oficial y descarga la ultima version del software, posteriormente asegurate de descargar las librerias necesarias [RF24](https://github.com/nRF24/RF24) y [ezButton](https://arduinogetstarted.com/tutorials/arduino-button-library), sin olvidarnos de hacer los ajustes necesarios para que el IDE de Arduino, reconozca nuestra placa ESP32
 
 
