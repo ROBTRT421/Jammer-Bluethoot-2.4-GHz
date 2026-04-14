@@ -21,3 +21,8 @@ Tira Header Macho    | https://a.co/d/07ljQCwV |
 Capacitor 10uf 50 V  | https://a.co/d/0bNZ5SrL | 
 Capacitor ceramico 100nf | https://a.co/d/0b53Ifid | 
 Cables Puente            | https://a.co/d/06hiqdK2 |
+
+# Tutorial
+1.- Adquiere las piezas usando la tabla anterior como referencia.
+2.- Realiza las debidas conexiones basandote en el siguiente diagrama: 
+
