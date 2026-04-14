@@ -72,3 +72,7 @@ MISO                 | PIN 12                      | MISO                | PIN 1
 MOSI                 | PIN 13                      | MOSI                | PIN 23                 |
 CS/CSN               | PIN 15                      | CS/CSN              | PIN 21                 |
 CE                   | PIN 16                      | CE                  | PIN 22                 |
+
+Puedes usar el siguiente diagrama como guía: 
+
+![Diagrama Doble]( https://github.com/ROBTRT421/Jammer-Bluethoot-2.4-GHz/blob/main/Diagrama%20Doble.png "Diagrama Doble.")
